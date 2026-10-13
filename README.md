@@ -22,6 +22,7 @@ A MkDocs Material site hosted on GitHub Pages with grouped navigation, collapsib
 | **Cheat sheet** | Quick-reference tables for every section |
 | **Light/dark mode** | Built-in toggle with automatic detection |
 | **Search** | Full-text search across all pages |
+| **Discovery Agent plugin** | A Claude Code plugin ([`discovery-agent/`](discovery-agent/)) that grills stakeholders with S.P.E.C.T.S. and produces a BRD, PRD, Domain Knowledge Pack and Data Pack |
 
 ### Domain → Section Mapping
 

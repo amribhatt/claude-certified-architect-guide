@@ -1,0 +1,16 @@
+{
+  "name": "architect-guide-plugins",
+  "owner": {
+    "name": "amribhatt"
+  },
+  "metadata": {
+    "description": "Claude Code plugins built alongside the Claude Certified Architect study guide."
+  },
+  "plugins": [
+    {
+      "name": "discovery-agent",
+      "source": "./discovery-agent",
+      "description": "Industry-agnostic requirements & discovery agent. Ingests docs/transcripts, grills business users sentence-by-sentence, plays back the scope, and produces a BRD, S.P.E.C.T.S. PRD, Domain Knowledge Pack and Data Pack."
+    }
+  ]
+}

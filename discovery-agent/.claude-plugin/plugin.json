@@ -1,0 +1,7 @@
+{
+  "name": "discovery-agent",
+  "version": "0.1.0",
+  "description": "Industry-agnostic requirements & discovery agent for agentic, generative, predictive and traditional systems. Ingests source material, grills stakeholders sentence-by-sentence, plays back the scope, and emits a BRD, S.P.E.C.T.S. PRD, Domain Knowledge Pack and Data Pack with full traceability.",
+  "author": { "name": "amribhatt" },
+  "keywords": ["requirements", "discovery", "brd", "prd", "agentic-ai", "grill-me", "business-analysis"]
+}
