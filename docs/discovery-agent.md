@@ -23,6 +23,15 @@ Source: [`discovery-agent/`](https://github.com/amribhatt/claude-certified-archi
 | 4. Playback | interactive | "So we're building…", assumptions, non-goals, autonomy contract, success sentence → explicit sign-off |
 | 5. Generate | autonomous | BRD, PRD, Domain Knowledge Pack, Data Pack — every line traced to a ledger ID |
 
+!!! success "Worked example — AI coding agent"
+    A complete run on the classic interview prompt (an AI coding agent for 10K → 100K developers):
+    [brief](https://github.com/amribhatt/claude-certified-architect-guide/blob/main/discovery-agent/examples/coding-agent/sources/brief.md) →
+    [ledger](https://github.com/amribhatt/claude-certified-architect-guide/blob/main/discovery-agent/examples/coding-agent/ledger.md) →
+    [playback](https://github.com/amribhatt/claude-certified-architect-guide/blob/main/discovery-agent/examples/coding-agent/playback.md) →
+    [PRD](https://github.com/amribhatt/claude-certified-architect-guide/blob/main/discovery-agent/examples/coding-agent/out/PRD.md).
+    Note how the grill catches the brief's success sentence, which describes a different product
+    ("chat prompt… visualisation") and an unbenchmarked "80% time saved".
+
 ## S.P.E.C.T.S. in one table
 
 | Step | Question it answers | Exit criterion |

@@ -53,15 +53,32 @@ Group as: Core capabilities (P0) · Adaptation / learning capabilities · Safety
 
 ## E — Engineering constraints (non-functional)
 
-| ID | Area | Requirement | Target | Rationale | Source |
+### Model performance requirements
+| ID | Metric | MVP target | v2 target | Measured how | Source |
 |---|---|---|---|---|---|
-| NFR-1 | Latency | | p95 … | | |
-| NFR-2 | Quality | | task success ≥ … | | |
-| NFR-3 | Cost | | $… per task | | |
-| NFR-4 | Availability | | | | |
-| NFR-5 | Security & privacy | | | | |
-| NFR-6 | Compliance & audit | | | | |
-| NFR-7 | Context / data volume | | | | |
+| NFR-1 | Task success / acceptance rate | | | | |
+| NFR-2 | Latency (interactive p95, end-to-end p50) | | | | |
+| NFR-3 | Adaptation (examples needed, time to proficiency) | | | | |
+| NFR-4 | Error / hallucination rate | | | | |
+
+### Safety & reliability
+| ID | Requirement | Target | Enforced where (infra / policy / prompt) | Source |
+|---|---|---|---|---|
+| NFR-5 | Irreversible actions need explicit approval | 0 unapproved | | |
+| NFR-6 | Self-correction budget before escalation | | | |
+| NFR-7 | Availability & graceful degradation | | | |
+| NFR-8 | Security, privacy & tenant isolation | | | |
+| NFR-9 | Audit trail & retention | | | |
+
+Rule: anything safety-critical is enforced by permissions/infrastructure, never by the prompt alone.
+
+### Computational resources
+| Resource | Requirement | Sizing at launch → target scale | Source |
+|---|---|---|---|
+| Model inference (context window) | | | |
+| Cost per task | | | |
+| Memory / knowledge store | | | |
+| Execution sandboxes / compute | | | |
 
 ### How these constraints shape the architecture
 One bullet per constraint → design consequence.

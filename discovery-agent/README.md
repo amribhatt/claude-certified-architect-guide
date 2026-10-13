@@ -95,5 +95,7 @@ discovery-agent/
 │   ├── grill/SKILL.md
 │   └── generate-packs/SKILL.md
 │       └── templates/{brd,prd-spects,domain-knowledge-pack,data-pack}.md
-└── examples/sample-session.md
+└── examples/
+    ├── sample-session.md          # abridged grilling transcript (insurance)
+    └── coding-agent/              # full worked S.P.E.C.T.S. run: brief → ledger → playback → PRD
 ```

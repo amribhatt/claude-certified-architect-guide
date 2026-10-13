@@ -37,8 +37,13 @@ measurable success sentence.
 - How many users at launch, in 12 months? Single-tenant or multi-tenant?
 - Enterprise, internal, or consumer? Which geographies / languages?
 
-**Restate & bound** — once the above is answered, restate in the "So we're building…"
-shape and confirm; then list ✅ assumptions and ❌ non-goals and confirm those too.
+**Close Scope in four steps — always in this order, each confirmed by the user:**
+1. *Clarify* — the questions above (only those the sources leave open).
+2. *Restate* — "So we're building {one sentence} that can: …" (3–6 bullets).
+3. *Assumptions ✅ and non-goals ❌* — explicit lists.
+4. *Define success* — one measurable sentence. Check it against the restated scope:
+   a success sentence that mentions capabilities not in scope (copy-paste from another
+   project is common) or an unbenchmarked number ("reduce time by 80%") is a ⚠️ — grill it.
 
 ---
 
